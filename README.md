@@ -24,3 +24,4 @@ Instructions to run:
 ◦	Run “python generate.py --use_aux_features=True --mean_sub=True --normalise=True --mean_file=./meanfile.npy --std_file=./stdfile.npy --checkpoint=./checkpointFile –samples=numSamplesToGenerate --aux_source=./AudioFileToUseAsAuxSource –wav_out_path=nameOfAudioFile.wav”<br/>
 ◦	Note: for the checkpoint file, provide only the prefix of the checkpoint and not any of the extensions, i.e. model.ckpt-9999, not model.ckpt-9999.index<br/>
 
+Credit this project (https://github.com/ibab/tensorflow-wavenet) provided a helpful reference.
